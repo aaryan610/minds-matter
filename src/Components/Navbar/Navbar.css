@@ -15,10 +15,12 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0 15vw;
+  z-index: 5;
 }
 
 .navbar .left {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .navbar .right .navList {
@@ -31,8 +33,9 @@
 }
 
 .navbar .right .navList .link {
-  color: #000;
+  color: #fff;
   text-decoration: none;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 /*# sourceMappingURL=Navbar.css.map */
