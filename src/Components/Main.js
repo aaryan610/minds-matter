@@ -7,6 +7,7 @@ import Footer from "./Footer/Footer";
 
 //Pages
 import Home from "./Home/Home";
+import Login from "./Login";
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
         {/* Pages */}
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
+        <Login />
 
         <Footer />
       </Router>
