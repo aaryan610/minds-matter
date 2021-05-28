@@ -1,5 +1,4 @@
 import firebase from "firebase/app";
-
 import "firebase/auth"; // for authentication
 import 'firebase/storage';     // for storage
 import "firebase/database"; // for realtime database
@@ -17,9 +16,7 @@ const firebaseApp = firebase.initializeApp({
   appId: `${process.env.REACT_APP_FIREBASE_APP_ID}`,
   measurementId: `${process.env.REACT_APP_FIREBASE_MEASUREMENT_ID}`
 });
-
 export const auth = firebaseApp.auth();
 export const db = firebaseApp.firestore();
 export const storage = firebaseApp.storage();
-
 export default firebaseApp;
