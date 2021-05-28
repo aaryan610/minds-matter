@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserContext } from "../Main";
 import "./Navbar.css";
 
 const Navbar = () => {
+  let { user } = useContext(UserContext);
   return (
     <React.Fragment>
       <div className="navbar">
@@ -20,9 +22,15 @@ const Navbar = () => {
             <a href="/relax" className="link">
               Relax!
             </a>
-            <a href="/profile" className="link">
-              Profile
-            </a>
+            {user ? (
+              <a href="/profile" className="link">
+               {user.displayName}
+              </a>
+            ) : (
+              <a href="/login" className="link">
+                Log In
+              </a>
+            )}
           </div>
         </div>
       </div>
