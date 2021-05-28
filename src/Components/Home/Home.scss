@@ -1,0 +1,38 @@
+.homeCont {
+  .section1 {
+    position: relative;
+    padding-top: 10vh;
+    height: 100vh;
+    background-color: #7289da;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10vw;
+    color: #fff;
+
+    .left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .right {
+      text-align: right;
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.2;
+
+        span {
+          color: #102168;
+        }
+      }
+    }
+  }
+}

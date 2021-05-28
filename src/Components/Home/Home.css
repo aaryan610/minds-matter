@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+.homeCont .section1 {
+  position: relative;
+  padding-top: 10vh;
+  height: 100vh;
+  background-color: #7289da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10vw;
+  color: #fff;
+}
+
+.homeCont .section1 .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.homeCont .section1 .left img {
+  height: 100%;
+}
+
+.homeCont .section1 .right {
+  text-align: right;
+}
+
+.homeCont .section1 .right h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.homeCont .section1 .right h1 span {
+  color: #102168;
+}
+/*# sourceMappingURL=Home.css.map */
