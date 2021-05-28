@@ -5,7 +5,7 @@ import { UserContext } from "./Main";
 
 const Login = () => {
 
-    let {setUser} = useContext(UserContext)
+const {user,setUser} = useContext(UserContext)
   const uiConfig = {
     signInFlow: "popup",
     signInSuccessUrl: "/",
