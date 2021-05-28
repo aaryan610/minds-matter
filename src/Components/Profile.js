@@ -12,6 +12,7 @@ const Profile = () => {
       <div>
         <img src={user.photoURL} />
       </div>
+      <a href="/login">
       <button
             onClick={() => {
               firebase.auth().signOut();
@@ -19,6 +20,7 @@ const Profile = () => {
           >
             Logout
           </button>
+          </a>
     </div>
   );
 };
